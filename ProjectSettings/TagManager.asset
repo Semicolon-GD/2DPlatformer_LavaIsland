@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Slippery
+  - Wall
+  - https://visualstudio.microsoft.com/tr/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&workload=dotnet-dotnetwebcloud&passive=false#dotnet
   layers:
   - Default
   - TransparentFX
@@ -39,14 +41,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 1797973803
     locked: 0
   - name: Background Props
     uniqueID: 2436393549
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Player
     uniqueID: 808913787
