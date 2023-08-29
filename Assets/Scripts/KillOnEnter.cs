@@ -8,7 +8,7 @@ public class KillOnEnter:MonoBehaviour
 
         if (player != null)
         {
-            player.LooseHP();
+            player.ResetToStart();
         }
 
     }

@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] int _maxHP=3;
+    
 
 
     Vector2 _startPosition;
-    int _currentHP;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        _currentHP = _maxHP;
+        
         _startPosition = transform.position;
     }
 
@@ -26,25 +26,11 @@ public class Player : MonoBehaviour
 
 
 
-    internal void LooseHP()
-    {
-        _currentHP--;
-        if (_currentHP <= 0)
-            GameOver();
-        else
-            ResetToStart();
+   
 
-    }
-
-    void ResetToStart()
+    public void ResetToStart()
     {
         transform.position= _startPosition;
     }
 
-    void GameOver()
-    {
-        Debug.Log("Game Over");
-        ResetToStart();
-        _currentHP = _maxHP;
-    }
 }
