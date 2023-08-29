@@ -32,5 +32,10 @@ public class Player : MonoBehaviour
     {
         transform.position= _startPosition;
     }
+    
+    public void TeleportTo(Vector2 pos)
+    {
+        transform.position = pos;
+    }
 
 }
