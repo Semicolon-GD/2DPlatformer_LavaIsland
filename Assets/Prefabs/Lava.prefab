@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8311745451589161614}
   - component: {fileID: 3067769338877847020}
   - component: {fileID: 593750604468548425}
+  - component: {fileID: 581151128598878509}
   m_Layer: 0
   m_Name: liquidLavaTop_mid
   m_TagString: Untagged
@@ -4927,6 +4928,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &581151128598878509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4897335339828651492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433f618fd206c8c489ffc60ecd6e12a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7069330254265412847
 GameObject:
   m_ObjectHideFlags: 0

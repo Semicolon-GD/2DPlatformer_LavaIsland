@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -30,12 +31,17 @@ public class Player : MonoBehaviour
 
     public void ResetToStart()
     {
-        transform.position= _startPosition;
+        SceneManager.LoadScene("Menu");
     }
     
     public void TeleportTo(Vector2 pos)
     {
         transform.position = pos;
+    }
+
+    public void GameOver()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
 }
